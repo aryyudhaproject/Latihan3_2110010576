@@ -4,13 +4,13 @@ package geometri;
 
 public class Lingkaran {
         
-        double luas,keliling;
-        
-    public Lingkaran(double radius) {
-    this.luas = luas;
-    this.keliling = keliling;
-}
-  public double radius(){
-    return radius;
-}
+       double radius;
+       
+       public double luas (){
+           return 3.14*radius*radius;
+       }
+       
+       public double keliling (){
+           return 2*3.14*radius;
+       }
 }
